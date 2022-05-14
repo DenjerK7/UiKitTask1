@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("applicationDidBecomeActive: — сработает в тот момент, когда приложение будет переходить на передний план (из состояния Inactive в Active). Используй этот метод для последних приготовлений")
     }
     
+    
     func applicationWillResignActive(_ application: UIApplication) {
         print("applicationWillResignActive: — вызовется тогда, когда приложение будет уходить с переднего плана. Используй этот метод для того, чтобы приготовить приложение на случай выгрузки")
     }
