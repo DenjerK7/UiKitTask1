@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
        print("application:didFinishLaunchingWithOptions: — этот метод вызывается непосредственно перед показом приложения пользователю. В этом методе чаще всего идет основная настройка приложения.")
         return true

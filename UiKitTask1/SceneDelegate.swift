@@ -41,5 +41,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         print("sceneDidEnterBackground: — дает понять, что приложение находится в фоне и может выгрузиться в любой момент")
     }
 
-
 }
