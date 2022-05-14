@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
        print("application:didFinishLaunchingWithOptions: — этот метод вызывается непосредственно перед показом приложения пользователю. В этом методе чаще всего идет основная настройка приложения.")
         return true
@@ -24,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         print("applicationDidBecomeActive: — сработает в тот момент, когда приложение будет переходить на передний план (из состояния Inactive в Active). Используй этот метод для последних приготовлений")
     }
+    
     
     func applicationWillResignActive(_ application: UIApplication) {
         print("applicationWillResignActive: — вызовется тогда, когда приложение будет уходить с переднего плана. Используй этот метод для того, чтобы приготовить приложение на случай выгрузки")
